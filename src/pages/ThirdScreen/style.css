@@ -1,0 +1,92 @@
+.product-selected-list-title {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.product-selected-list-content {
+  margin-top: 5%;
+  max-height: 50vh;
+  overflow-y: auto;
+}
+
+.product-selected-list-header {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.product-selected-list-header::before {
+  position: absolute;
+  content: "";
+  height: 2px;
+  background-color: #ffa200;
+  bottom: -5px;
+  width: 100%;
+}
+
+.product-selected-title-price {
+  width: 20%;
+}
+.product-selected-list-content-container {
+  margin-top: 5px;
+}
+
+.selected-item-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.selected-item-container {
+  padding: 15px 0;
+  border-bottom: 1px solid #bdbdbd;
+}
+
+.selected-item-name {
+  font-size: 14px;
+  font-weight: 600;
+  width: 10%;
+  width: 40px;
+}
+
+.selected-item-qty-container {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  width: 40px;
+}
+.product-selected-title-food,
+.selected-item-name {
+  width: 30%;
+  margin: auto 0;
+}
+.product-selected-title-qty,
+.selected-item-qty-container {
+  width: 20%;
+  margin: auto 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+/* .product-selected-title-qty {
+  margin-left: 5%;
+} */
+.product-selected-title-unit-price,
+.selected-item-unit-price {
+  width: 30%;
+  margin: auto 0;
+  text-align: center;
+}
+.product-selected-title-price {
+  width: 20%;
+  margin: auto 0;
+}
+.selected-item-price {
+  width: 10%;
+  margin: auto 0;
+}
+.selected-item-delete-action {
+  width: 10%;
+  display: flex;
+  justify-content: flex-end;
+}

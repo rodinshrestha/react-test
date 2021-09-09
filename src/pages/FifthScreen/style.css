@@ -1,0 +1,19 @@
+.product-successfull-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.product-successfull-title {
+  text-align: center;
+  font-weight: 600;
+}
+.product-successfull-helpertext {
+  text-align: center;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.qr-contianer {
+  margin: 0 auto;
+}

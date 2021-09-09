@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* background-color: whitesmoke; */
+}
+.homepage-content {
+  width: 230px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.homepage-title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+.homepage-helper-text {
+  text-align: center;
+}
+.homepage-add-product a {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  text-decoration: none;
+  color: #333;
+}
+.homepage-link-text {
+  margin: auto 0;
+  position: relative;
+}
+.homepage-link-text:before {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  height: 2px;
+  width: 100%;
+  background-color: #ffa200;
+}
